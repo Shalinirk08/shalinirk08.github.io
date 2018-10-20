@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My WebPage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function add(){
+                  var a=document.getElementById("n1").value;
+                  var b=document.getElementById("n2").value;
+                  var c=parseInt(a)+parseInt(b);
+                  //document.write("<h1 style='color:blue'>The sum of "+a+" and "+b+" is "+(a+b)+"</h1>");
+                  document.getElementById("d1").innerHTML="The sum is "+c;
+            }
+                function sub(){
+                  var a=document.getElementById("n1").value;
+                  var b=document.getElementById("n2").value;
+                  var c=a-b;
+                  //document.write("<h1 style='color:blue'>The sum of "+a+" and "+b+" is "+(a+b)+"</h1>");
+                  document.getElementById("d1").innerHTML="The difference is "+c;
+            }
+                function div(){
+                  var a=document.getElementById("n1").value;
+                  var b=document.getElementById("n2").value;
+                  var c=a/b;
+                  //document.write("<h1 style='color:blue'>The sum of "+a+" and "+b+" is "+(a+b)+"</h1>");
+                  document.getElementById("d1").innerHTML="The quotient is "+c;
+            }
+                function mul(){
+                  var a=document.getElementById("n1").value;
+                  var b=document.getElementById("n2").value;
+                  var c=a*b;
+                  //document.write("<h1 style='color:blue'>The sum of "+a+" and "+b+" is "+(a+b)+"</h1>");
+                  document.getElementById("d1").innerHTML="The product is "+c;
+            }
+            function cle()
+            {
+                document.getElementById("d1").innerHTML="";
+            }
+            function bmi()
+            {
+                 var a=document.getElementById("n3").value;
+                 var b=document.getElementById("n4").value;
+                 
+                 var c=b/100;
+                 var d=c*c;
+                 var e=Math.floor(a/d);
+                 if(e<18){
+                 document.getElementById("d2").innerHTML="Underweight "+e;
+             }
+             else if(e>18&&e<25)
+             {
+                 document.getElementById("d2").innerHTML="Normal "+e;
+             }
+               else if(e>25&&e<30)
+             {
+                 document.getElementById("d2").innerHTML="Overweight "+e;
+             }
+               else if(e>30)
+             {
+                 document.getElementById("d2").innerHTML="Obese "+e;
+             }
+         
+            }
+                 function put(num)
+     {
+      document.getElementById("t1").value=document.getElementById("t1").value+(num);           
+     }
+     
+     function equal()
+     {
+         var exp=document.getElementById("t1").value;
+         if(exp)
+         {
+             document.getElementById("t1").value=eval(exp);
+         }
+     }  
+     function res()
+     {
+         document.getElementById("t1").value="";
+     }
+     function clr()
+     {
+        document.getElementById("t1").value="";
+         
+         
+     }
+       function conv()
+       {
+         
+                
+       }
+     }
+            
+        
+        </script>
+        <style>
+        #d1
+        {
+            color: blue;
+            background-color: lightblue;
+            font-size: 50px;
+        }
+        #d2
+        {
+            color:blue;
+            font-size: 50px;
+        }
+     #rb
+   {
+       width:225px;
+       height:38px;
+       font-size: 22.5px;
+   }
+    #cb
+   {
+       width:225px;
+       height:38px;
+       font-size: 22.5px;
+   }
+      #t1
+   {
+     width: 450px;
+     height: 50px;
+    font-size: 22.5px;
+   }
+
+#q
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#w
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#e
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#r
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#t
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#y
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#u
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#i
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#o
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#p
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#a
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#s
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#d
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#f
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#g
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#h
+{
+    width: 112.5px;
+       height: 38px;
+       font-size: 22.5px;
+}
+#t2
+{
+    width: 400px;
+    height:30px;
+    font-size: 20px;
+}
+  #con
+  {
+      font-size: 16px;
+      
+  }
+  
+#res
+{
+   margin-left: 420px;
+   height:30px;
+   font-size: 20px;
+   text-align: center;
+}
+#froo
+{
+    width: 100px;
+    height:30px;
+}
+#too
+{
+    width: 100px;
+    height:30px;
+}
+  
+
+      
+        </style>
+        
+        <link href="newcss.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    </head>
+    <body onload="conv()">
+        <div>
+            <fieldset>
+                <h1 align="center"> SIMPLE CALCULATOR </h1>
+                <hr>
+                <input type="number" id="n1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="n2"><br><br>
+                <input type="button" value="Add" onclick="add()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Sub" onclick="sub()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Div" onclick="div()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Mul" onclick="mul()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Clear" onclick="cle()">
+                <br><br> 
+               <div id="d1">
+                    
+                </div>
+              
+
+            </fieldset> 
+            <br><br>
+            <div class="header">
+                <h1 align="center" style="color: white">Body Mass Index (BMI)</h1>
+                <h3 align="center" style="color: white">A Measure of body fat in adults</h3>
+                </div>
+                <fieldset>
+                    Weight: &nbsp;<input type="number" min="0" id="n3">kg<br><br>
+                    Height: &nbsp;<input type="number" min="0" id="n4">cm<br><br>
+                    <input type="button" value="BMI" onclick="bmi()">
+                    
+                 <div id="d2">
+                    
+                </div>
+                </fieldset>
+                 <br><br>
+                 <fieldset>
+         <h1 align="center">Online Calculator</h1>
+        <hr>
+         
+        <input type="text" id="t1"><br>
+        
+       <input class="button" type="button"  id="q" value="0" onclick="put(0)"><input class="button" type="button" id="w" value="1" onclick="put(1)"><input class="button" type="button" id="e" value="2" onclick="put(2)"><input class="button" type="button" id="r" value="3" onclick="put(3)"> <br>
+        <input class="button" type="button" id="t" value="4" onclick="put(4)"><input class="button" type="button" id="y" value="5" onclick="put(5)"><input class="button" type="button" id="u" value="6" onclick="put(6)"><input class="button" type="button" id="i" value="7" onclick="put(7)"> <br>
+        <input class="button" type="button" id="o" value="8" onclick="put(8)"><input class="button" type="button" id="p" value="9" onclick="put(9)"><input class="button" type="button" id="a" value="." onclick="put('.')"><input class="button" type="button" id="s" value="+" onclick="put('+')"> <br>
+        <input class="button" type="button" id="d" value="-" onclick="put('-')"><input class="button" type="button" id="f" value="*" onclick="put('*')"><input class="button" type="button" id="g" value="/" onclick="put('/')"><input class="button" type="button" id="h" value="=" onclick="equal()"> <br>
+        <input class="button" type="button" id="rb" value="Reset" onclick="res()"><input class="button" type="button" id="cb" value="Clear" onclick="clr()">
+       
+            
+     
+        </fieldset>
+         <br><br>
+         <div class="head1">
+             <h1 align="center" style="color: white">Currency Converter </h1>
+         </div> 
+         <fieldset>
+             <h3>Input</h3>
+             <input type="text" id="t2" value="1">
+             <br>
+             <h3>From</h3>
+             <select name="from" id="froo" onchange="conv()">
+                 <option selected id="j" value="Usd">USD</option>
+                 <option id="k" value="Eur">EUR</option>
+                 <option id="l" value="Gbp">GBP</option>
+                 <option id="z" value="Inr">INR</option>
+                 <option id="x" value="Aud">AUD</option>
+             </select>
+             <h3>To</h3>
+             <select name="to" id="too" onchange="conv()">
+                 <option id="c" value="Usd1">USD</option>
+                 <option id="v" value="Eur1">EUR</option>
+                 <option id="b" value="Gbp1">GBP</option>
+                 <option selected id="n" value="Inr1">INR</option>
+                 <option id="m" value="Aud1">AUD</option>
+             </select> 
+            
+             <input type="text" id="res" disabled value="70.5277">
+         </fieldset>
+                 
+        </div>
+    </body>
+</html>
