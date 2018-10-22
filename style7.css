@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Oct, 2018, 7:36:48 PM
+    Author     : hp
+*/
+.d1 {
+    width: 800px;
+    height: 200px;
+    background-color: #009999;
+    margin-left: 250px;
+    padding-left: 200px;
+    padding-top:100px;
+    font-size: 60px;
+    
+}
+
+.d2 {
+    font-size:  100px;
+}
+
+.b2 {
+    
+    background-color: #99ffcc;
+    font-size: 30px;
+
+}
+
+.b1 {
+    background-color: #ff6633;
+    font-size: 30px; 
+}
+
+
+
+.b6 {
+    background-color: #9999ff;
+    font-size: 30px; 
+}
+
+.b3 {
+    background-color: #f98bd7;
+    font-size: 30px;
+}
+
+.b4 {
+    background-color: #ff9933;
+    font-size: 30px;
+}
+
+.b5 {
+    background-color: #ff4a63;
+    font-size: 30px;
+}
+
+.b7 {
+    background-color: #ffb03a;
+    font-size: 30px;
+}
+
+.b8 {
+    background-color: #e17e85;
+    font-size: 30px; 
+}
+
+.b9 {
+    background-color:  #0099cc;
+    font-size: 30px;
+}
+
+.b0 {
+    background-color: hotpink;
+    font-size: 30px;
+}
+
+img{
+    height: 250px;
+    position: relative;
+}

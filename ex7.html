@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style7.css" rel="stylesheet">
+        <script src="jquery-3.3.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                     $(".b2").click(function() {
+                     $(".d1").css("background-color","aqua");
+                      $(".d1").hide(1000);    
+              });
+              $(".b1").click(function () {
+                  $(".d1").css("background-color","purple");
+                  $(".d1").show(1000);
+              });
+              
+                $(".b3").click(function () {
+                  $(".d1").toggle("slow");
+                    $(".d1").css("background-color","blue");
+              });
+              
+               $(".b4").click(function () {
+                   $(".d1").fadeIn(1000);
+              });
+              
+               $(".b5").click(function () {
+                  $(".d1").fadeOut(1000);
+              });
+              
+                $(".b6").click(function () {
+                  $(".d1").fadeTo(1000,".4");
+              });
+              
+              $(".b7").click(function () {
+                  $(".d1").fadeToggle(1000);
+              });
+              
+              $(".b8").click(function () {
+                  $(".d1").slideUp("slow");
+              });
+              
+              $(".b9").click(function () {
+                  $(".d1").slideDown("slow");
+              });
+              
+              $(".b0").click(function () {
+                  $(".d1").slideToggle("slow");
+              });
+              
+              $(".b11").click(function () {
+                  $("img").animate({left:'1200px'},2000);
+              });
+              
+              $(".b12").click(function () {
+                  $("img").animate({left:'-0px'},6000);
+              });
+              
+            });        
+          
+         
+        </script>
+    </head>
+    <body>
+        <div class="d1">This is a simple div box</div> <br></br>
+        
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <button class="b1">Show</button> &nbsp
+         <button class="b2">Hide</button> &nbsp
+          <button class="b3">Toggle</button> &nbsp
+           <button class="b4">fadeIn</button> &nbsp
+            <button class="b5">fadeOut</button> &nbsp
+             <button class="b6">fadeTo</button> &nbsp
+              <button class="b7">fadeToggle</button> &nbsp
+               <button class="b8">Slideup</button> &nbsp
+                <button class="b9">SlideDown</button> &nbsp
+                <button class="b0">SlideToggle</button> <hr>
+                
+                <div id="d2"> <h1><big><big><big>ANIMATION</big></big></big> </h1>
+                    <img src="car1.png" alt="Car Image" ><br></br>
+                     <button class="b11">Start</button> &nbsp
+                      <button class="b12">Stop</button>
+                </div>
+    </body>
+</html>
+
